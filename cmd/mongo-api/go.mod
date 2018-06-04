@@ -1,0 +1,30 @@
+module github.com/Piszmog/mongo-api-grpc-example/cmd/mongo-api
+
+require (
+	github.com/globalsign/mgo v0.0.0-20180424091348-efe0945164a7
+	github.com/go-log/log v0.1.0
+	github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b
+	github.com/golang/protobuf v1.1.0
+	github.com/google/uuid v0.0.0-20171129191014-dec09d789f3d
+	github.com/hashicorp/consul v1.1.0
+	github.com/hudl/fargo v1.2.0
+	github.com/micro/cli v0.0.0-20160406215405-3d2263bb0922
+	github.com/micro/go-log v0.0.0-20170512141327-cbfa9447f9b6
+	github.com/micro/go-micro v0.8.0
+	github.com/micro/go-plugins v0.10.1
+	github.com/micro/go-rcache v0.0.0-20180418165751-a581a57b5133
+	github.com/micro/mdns v0.0.0-20160929165650-cdf30746f9f7
+	github.com/micro/util v0.0.0-20180417104657-4b7ed83e8520
+	github.com/op/go-logging v0.0.0-20160315200505-970db520ece7
+	github.com/pborman/uuid v0.0.0-20180122190007-c65b2f87fee3
+	github.com/pkg/errors v0.8.0
+	github.com/stretchr/testify v1.2.1
+	go.uber.org/zap v1.8.0
+	golang.org/x/net v0.0.0-20180524181706-dfa909b99c79
+	golang.org/x/oauth2 v0.0.0-20180529203656-ec22f46f877b
+	golang.org/x/sync v0.0.0-20180314180146-1d60e4601c6f
+	golang.org/x/text v0.3.0
+	google.golang.org/genproto v0.0.0-20180523212516-694d95ba50e6
+	google.golang.org/grpc v1.12.0
+	gopkg.in/check.v1 v1.0.0-20161208181325-20d25e280405
+)

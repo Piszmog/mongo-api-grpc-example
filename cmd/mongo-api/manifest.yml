@@ -1,0 +1,11 @@
+---
+applications:
+  - name: mongo-api-grpc-demo
+    buildpack: go_buildpack
+    memory: 5M
+    instances: 1
+    env:
+      GOPACKAGENAME: github.com/Piszmog/mongo-api-grpc-example/cmd/mongo-api
+      GOVERSION: go1.10
+    services:
+     - mongo
